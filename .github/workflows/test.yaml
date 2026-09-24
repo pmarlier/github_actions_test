@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Checkout project
+        uses: actions/Checkout@a326e84e526b347b06c8580371f8debb35a99f84
+
       - name: Install Dependancies
         run: | 
           python -m pip install --upgrade pip
