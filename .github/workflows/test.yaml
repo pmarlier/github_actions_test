@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    runs-on: [self-hosted, ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
 
       - name: Install Python 3.12
