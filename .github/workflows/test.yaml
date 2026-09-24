@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Checkout project
-        uses: actions/checkout@8b12722
+      - name: Checkout project 
+        uses: actions/checkout@v4 # official reference for GitHub checkout service
 
       - name: Install Dependancies
         run: | 
