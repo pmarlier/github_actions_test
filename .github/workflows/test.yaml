@@ -14,12 +14,12 @@ jobs:
     steps:
 
       - name: Install Python 3.12
-        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
         with:
           python-version: '3.12'
 
       - name: Checkout project
-        uses: actions/Checkout@a326e84e526b347b06c8580371f8debb35a99f84
+        uses: actions/checkout@8b12722
 
       - name: Install Dependancies
         run: | 
